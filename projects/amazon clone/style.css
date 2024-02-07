@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: border-box;
+    color: white;
+}
+.border {
+    border: 2px solid transparent;
+}
+.border:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+.navbar {
+    height: 60px;
+    background-color: #0F1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    width: 130px;
+    height: 50px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 90%;
+    height: 85%;
+}
+
+.address {
+    padding-top: 7px;
+    color: white;
+    height: 50px;
+    width: 100px;
+}
+
+.address1 {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.address2 {
+    font-size: 1rem;
+    margin-left: 3px;
+    font-weight: bold;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 850px;
+    height: 44px;
+    border-radius: 4px;
+}
+
+.search-box:hover {
+    border: 3px solid orange;
+
+   
+}
+
+.all {
+    background-color: #F3F3F3;
+    width: 50px;
+    text-align: center;
+    height: 40px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    color: #0F1111;
+}
+.all option{
+    color: black ;
+}
+.search-text {
+    width: 100%;
+    height: 40px;
+    color: black;
+    font-size: 1rem;
+    border: none;
+    padding: 0 10px;
+}
+
+.icon {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    height: 40px;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+}
+
+.language {
+    padding-top: 7px;
+    padding-left: 5px;
+    color: white;
+    display: flex;
+    height: 50px;
+    width: 90px;
+    align-items: center;
+}
+
+.nav-sign-in {
+    padding-top: 7px;
+    padding-left: 5px;
+    height: 50px;
+    width: 130px;
+}
+
+.nav-return {
+    padding-top: 7px;
+    padding-left: 5px;
+    height: 50px;
+    width: 80px;
+}
+
+.usa-flag {
+    width: 30px;
+    height: 20px;
+    margin-right: 2px;
+}
+
+.lang {
+    background-color: #0F1111;
+    color: white;
+    border: none;
+}
+
+span {
+    font-size: 0.7rem;
+}
+
+.navcart i {
+    font-size: 30px;
+}
+
+.navcart {
+    padding-top: 7px;
+    padding-left: 5px;
+    height: 50px;
+    width: 70px;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* navbar second */
+.second-navbar {
+    padding: 0 10px;
+    display: flex;
+    background-color: #222f3d;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    height: 40px;
+    color: white;
+
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 58px;
+    height: 40px;
+    font-size: 1rem;
+}
+
+.option-pannle p {
+    display: inline;
+    padding: 8px 9px;
+}
+
+/* shopping container style */
+.shopping {
+    background-image: url(ui.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.text-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    height: 45px;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    font-family:sans-serif;
+    font-size: 1.1rem;
+    margin-bottom:50px;
+    border-radius: 2px;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 4px;
+    font-size: 1.2rem;
+    color: blue;
+}
+.product-body{
+    background-color: #ebe6e6;
+    padding: 20px 10px;
+    width: 100%;
+  
+}
+.product-width{
+    width: 1460px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+   
+}
+.product-box{
+    width:350px;
+    height: 440px;
+    background-color: white;
+    padding:15px;
+    margin-left: 12px;
+    margin-bottom: 15px;
+}
+.product-box img{
+   width: 320px;
+   height: 307px;
+   margin-bottom: 10px;
+   text-align: center;
+   box-shadow: inset;
+}
+.product-box h2{
+    font-family:Arial, Helvetica, sans-serif ;
+    margin-bottom: 20px;
+    color: rgb(22, 21, 21);
+    
+}

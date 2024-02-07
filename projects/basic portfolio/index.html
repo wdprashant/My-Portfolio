@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bharat Portfolio</title>
+    <meta name="robots" content="noindex, nofollow">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Poppins:wght@200;500&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .logo {
+            font-size: x-large;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 97px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: yellow;
+
+
+        }
+
+        .first-section {
+            display: flex;
+            justify-content: space-around;
+            margin: 30px;
+            height: 600px;
+        }
+
+        .left-section {
+            text-align: center;
+            margin-left: 41px;
+            margin-top: 8px;
+            width: 30%;
+        }
+
+        .text {
+            text-align: left;
+            margin-top: 165px;
+            margin-left: 20px;
+            font-size: xx-large;
+            margin-bottom: 15px;
+        }
+
+        .textr {
+            color: blue;
+            font-size: 34px;
+
+        }
+
+        .prashant {
+            color: brown;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: xxx-large;
+        }
+
+        .Right-section {
+            width: 30%;
+            height: 500px;
+
+        }
+
+        img {
+            width: 30%;
+
+        }
+
+        .P {
+            margin-top: 5px;
+            margin-left: -40px;
+            height: 500px;
+            width: 500px;
+
+        }
+
+        .container {
+            background-color: rgb(56, 31, 79);
+
+            height: 750px;
+
+        }
+
+
+        .About {
+            color: rgb(50, 169, 124);
+            margin-left: 100px;
+            font-size: xx-large;
+            text-decoration: underline;
+
+        }
+
+        .second-section {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .left-box {
+            /* background-color: red; */
+            width: 30%;
+            margin-top: 20px;
+        }
+
+        .man {
+            height: 477px;
+            width: 373px;
+            margin-top: 44px;
+            margin-left: 68px;
+            /* border: 5px inset rgb(30, 43, 109); */
+            border-radius: 30px;
+        }
+
+        .right-box {
+            /* background-color: red; */
+            width: 30%;
+        }
+
+        .lorem {
+            text-indent: 60px;
+            margin-top: 100px;
+            margin-left: -30px;
+            text-align: justify;
+        }
+
+        .container-second {
+            background-color: rgb(74, 29, 129);
+            height: 750px;
+
+        }
+
+        .Project {
+            color: rgb(50, 169, 124);
+            margin-left: 100px;
+
+            font-size: xx-large;
+            text-decoration: underline;
+
+        }
+
+        .third-section {
+            display: flex;
+            justify-content: space-around;
+            /* background-color: red; */
+            height: 500px;
+        }
+
+        .one {
+            width: 280px;
+            height: 350px;
+
+            border-radius: 30px;
+        }
+
+        .two {
+            width: 280px;
+            height: 350px;
+
+            border-radius: 30px;
+        }
+
+        .three {
+            width: 280px;
+            height: 350px;
+
+            border-radius: 30px;
+        }
+
+        .four {
+            width: 280px;
+            height: 350px;
+
+            border-radius: 30px;
+        }
+
+        .a {
+            margin-top: 20px;
+            /* background-color: azure; */
+            color: rgb(0, 255, 170);
+            text-align: center;
+            height: 400px;
+            border-radius: 30px;
+
+        }
+
+        .b {
+            margin-top: 20px;
+            /* background-color: azure; */
+            color: rgb(0, 255, 170);
+            text-align: center;
+            height: 400px;
+            border-radius: 30px;
+        }
+
+        .c {
+            margin-top: 20px;
+            /* background-color: azure; */
+            color: rgb(0, 255, 170);
+            text-align: center;
+            height: 400px;
+            border-radius: 30px;
+        }
+
+        .d {
+            margin-top: 20px;
+            /* background-color: azure; */
+            color: rgb(0, 255, 170);
+            text-align: center;
+            height: 400px;
+            border-radius: 30px;
+        }
+
+        .container-third {
+            margin-top: -80px;
+            background-color: darkcyan;
+            width: 100%;
+            height: 285px;
+            text-align: center;
+            color: #1a2325d9;
+
+        }
+
+        .btn {
+            margin-top: 28px;
+            background-color: rgb(117, 21, 66);
+            width: 120px;
+            height: 40px;
+            margin-right: 40px;
+            border-radius: 5px;
+            font-weight: 800;
+            color: #14ed64;
+        }
+
+        .btn:hover {
+            cursor: pointer;
+            background-color: rgb(74, 54, 74);
+            color: rgb(188, 220, 223);
+            border: 3px solid rgb(245, 253, 248);
+        }
+
+        .container-fourth {
+            background-color: #192929;
+            height: 730px;
+
+        }
+
+        .contact-me {
+            color: rgb(239, 249, 245);
+            margin-left: 100px;
+            font-size: xx-large;
+            text-decoration: underline;
+
+        }
+
+        .lrbox {
+            display: flex;
+        }
+
+        .lbox {
+            /* background-color: rgb(81, 65, 65); */
+            margin-left: 100px;
+            margin-top: 80px;
+            height: 570px;
+            width: 600px;
+            padding-left: 30px;
+        }
+
+        .rbox {
+            background-color: #2b3434;
+            margin-left: 100px;
+            margin-top: 30px;
+            height: 570px;
+            width: 600px;
+        }
+
+        .m {
+            color: #d3cd14;
+            /* background-color: rgb(0, 219, 106);  */
+
+        }
+
+        .n {
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        .form {
+            justify-content: space-around;
+            margin-left: 30px;
+            text-align: center;
+
+        }
+
+        .i {
+            color: antiquewhite;
+            background-color: rgb(55, 47, 47);
+            height: 30px;
+            width: 300px;
+            font-size: large;
+            margin-left: 30px;
+            border: 2px inset rgb(55, 47, 47);
+            text-align:
+
+        }
+
+        #c {
+            margin-left: 80px;
+        }
+
+        #d {
+            margin-left: 40px;
+        }
+    </style>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+</head>
+<body>
+    <header id="home">
+        <nav>
+            <div class="logo"> Bharat portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home"> Home</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#Contact me"> Contact me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first-section">
+            <div class="left-section">
+
+                <div class="text">Hi <br> I am <div class="prashant"> 'Prashant'</div>
+                </div>
+                <div class="textr">Full stack Web Devloper </div>
+            </div>
+            <div class="Right-section">
+                <img src="12345.png" class="P">
+            </div>
+        </section>
+    </main>
+
+    <div class="container">
+        <div class="About" id="about">About us</div>
+        <section class="second-section">
+            <div class="left-box"> <img src="12.jpg" class="man"> </div>
+            <div class="right-box">
+                <div class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptatibus magni
+                    enim maxime porro distinctio. Quam sint nostrum neque obcaecati ex quibusdam perferendis accusantium
+                    possimus. <br>Illo culpa eos porro nulla Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Hic
+                    facilis, provident aspernatur recusandae dolores veritatis eaque rerum natus repellat, autem quaerat
+                    eum a corporis labore<br> sunt est dolorem et vel quis similique obcaecati magni. Rerum eligendi ea
+                    provident enim. Reprehenderit debitis vero dolores soluta optio modi nostrum laudantium
+                    delectus,sunt
+                    est dolorem et vel quis similique obcaecati magni. Rerum eligendi ea
+                    provident enim. Reprehenderit debitis vero dolores soluta optio modi nostrum laudantium delectus
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="container-second">
+        <div class="Project" id="projects">Projects</div>
+        <section class="third-section">
+            <div class="a"><img src="a.jpg" class="one"> <br>Project 1</div>
+            <div class="b"><img src="b.jpg" class="two"><br> Project 2</div>
+            <div class="c"><img src="c.jpg" class="three"><br> Project 3</div>
+            <div class="d"><img src="d.jpg" class="four"> <br>Project 4</div>
+        </section>
+        <div class="container-third"> if you would like to work with me ,you can hire me go to contact page and contact
+            me fill your correct detail<br>
+
+        </div>
+    </div>
+
+    <div class="container-fourth">
+        <div class="contact-me" id="Contact me">Contact me</div>
+        <div class="lrbox">
+            <div class="lbox">
+                <br>
+                <br>
+                <br>
+                <ion-icon name="mail-outline" class="m"></ion-icon> prashantmanisahukjaga@gmail.com<br>
+                <ion-icon name="call-outline" class="m"></ion-icon> 328338823<br>
+                <ion-icon name="logo-instagram" class="m"></ion-icon><a
+                    href="https://instagram.com/prashant_sahu_8?igshid=ZGUzMzM3NWJiOQ==" target="main"
+                    class="n">instagram</a> <br>
+                <ion-icon name="logo-facebook" class="m"></ion-icon>facebook<br>
+                <br>
+                <br>
+                <div class="btnn"> <button class="btn">donload my cv </button>
+                </div>
+
+
+            </div>
+            <div class="rbox">
+                <br>
+                <br>
+                <br>
+
+                <form class="form">
+                    Your name <input type="name" placeholder="enter your name" class="i" required>
+                    <br>
+                    <br>
+                    Email<input type="email" placeholder="email" id="c" class="i" required> <br>
+                    <br>
+                    <br>
+                    your msg <textarea cols="30" rows="3" id="d" placeholder="yur msg" class="i"></textarea><br><br><br>
+                    <br>
+                    <button class="btn">submit </button>
+                </form>
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+</body>
+
+</html>
